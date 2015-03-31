@@ -1,0 +1,22 @@
+{
+  "name": "app-distribute",
+  "version": "0.0.1",
+  "description": "",
+  "preferGlobal": true,
+  "bin": {
+    "app-distribute": "index.js"
+  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/komola/app-distributor.git"
+  },
+  "author": "Claas Lange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/komola/app-distributor/issues"
+  },
+  "homepage": "https://github.com/komola/app-distributor"
+}
