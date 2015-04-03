@@ -1,1 +1,1 @@
-# app-distributor
+# app-distribute

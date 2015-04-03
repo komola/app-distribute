@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "preferGlobal": true,
-  "bin": {
-    "app-distribute": "index.js"
-  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +10,21 @@
     "type": "git",
     "url": "https://github.com/komola/app-distributor.git"
   },
+  "bin": {
+    "app-distribute": "./bin/app-distribute.js"
+  },
   "author": "Claas Lange",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/komola/app-distributor/issues"
   },
-  "homepage": "https://github.com/komola/app-distributor"
+  "homepage": "https://github.com/komola/app-distributor",
+  "dependencies": {
+    "apk-parser": "^0.1.3",
+    "apk-parser2": "^0.1.1",
+    "async": "^0.9.0",
+    "coffee-script": "^1.9.1",
+    "commander": "^2.7.1",
+    "ipa-metadata": "^1.2.0"
+  }
 }
